@@ -58,6 +58,12 @@ public class ApplicationTest {
 		assertNotNull(list);
 
 	}
+	
+	@Test
+	public void testList() {
+		assertNotNull(list);
+
+	}
 
 	@Test
 	public void testEmployee() {
@@ -67,7 +73,7 @@ public class ApplicationTest {
 
 	@Test
 	public void testListNotNull() {
-		assertNotNull(list);
+		assertNotNull(getEmployees().size());
 	}
 
 	class Employee {
