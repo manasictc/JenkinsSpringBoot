@@ -2,6 +2,7 @@ package com.jenkins.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 import java.util.List;
@@ -49,6 +50,12 @@ public class ApplicationTest {
 	@Test
 	public void testSize() {
 		assertNotNull(list.size());
+
+	}
+
+	@Test
+	public void testSizeNotNull() {
+		assertNotNull(list);
 
 	}
 
